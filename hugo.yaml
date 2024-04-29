@@ -1,0 +1,37 @@
+baseURL: "https://leospyke.dev/"
+languageCode: 'en-us'
+title: 'leospyke'
+theme: 'risotto-0.4.0'
+  
+enableEmoji: true
+enableGitInfo: true
+sectionPagesMenu: "main"
+
+params:
+  theme:
+    palette: "base16-dark"
+  about:
+    title: "LeoSpyke's profile"
+  socialLinks:
+    - icon: "fa-brands fa-github"
+      title: "GitHub"
+      url: "https://github.com/LeoSpyke"
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: "en-us"
+    languageDirection: "ltr"
+    languageName: "🇬🇧"
+    weight: 1
+  it:
+    contentDir: content/it
+    disabled: false
+    languageCode: "it-it"
+    languageDirection: "ltr"
+    languageName: "🇮🇹"
+    weight: 2
+  
